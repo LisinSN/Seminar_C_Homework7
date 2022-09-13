@@ -20,7 +20,7 @@ int min = Convert.ToInt32(Console.ReadLine());
 Console.Write("* Введите максимальное значение массива: ");
 int max = Convert.ToInt32(Console.ReadLine());
 
-
+// Решение без использование метода
 double [,] array = new double [m, n];
 
 for (int i = 0; i < 5; i++)
